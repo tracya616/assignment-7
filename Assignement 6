@@ -1,0 +1,14 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Read the Excel file
+data = pd.read_excel('C:/Users/atrac/Downloads/baseball(1).xlsx')
+
+# Print the data
+print(data)
+
+# Create a chart
+data.plot(kind='bar')
+
+# Show the chart
+plt.show()
